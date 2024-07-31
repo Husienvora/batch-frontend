@@ -22,6 +22,10 @@ DistributionSDK is a powerful and flexible JavaScript library designed to simpli
 
 GOTO the main [DistributionSDK.js](https://github.com/Husienvora/batch-frontend/blob/master/client/src/sdk/distributionSDK.js)
 
+As for the Truffle project in the repo , used to deploy and write smart contracts. Have written tests for BatchDistributor.sol for both eth transfer and erc-20 transfer.
+
+GOTO [Written tests](https://github.com/Husienvora/batch-frontend/blob/master/truffle/test/BatchDistributor.js)
+
 ## Features
 
 - 🚀 Batch ETH and ERC20 token transfers
@@ -101,7 +105,7 @@ The SDK is initialized in the `EthProvider` component located in the client fold
 
 ```javascript
 // In EthProvider.jsx
-import DistributionSDK from "distribution-sdk";
+import DistributionSDK from "../../sdk/distributionSDK";
 
 // ... other imports and code
 
