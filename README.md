@@ -31,10 +31,10 @@ DistributionSDK is a powerful and flexible JavaScript library designed to simpli
 
 ## Installation
 
-To install DistributionSDK, run the following command in your project directory:
+To install Demo:
 
 ```bash
-npm install distribution-sdk
+git clone https://github.com/Husienvora/batch-frontend.git
 ```
 
 ## Running the Demo
