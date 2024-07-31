@@ -1,5 +1,7 @@
 # DistributionSDK
 
+[Video demo](https://www.loom.com/share/d21a953e170d4055b9fe2ffbe885b8c3?sid=858c6349-75dd-453f-b77d-172907d0626a)
+
 ## Table of Contents
 
 - [Introduction](#introduction)
