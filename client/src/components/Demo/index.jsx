@@ -19,9 +19,7 @@ function Demo() {
   );
 
   return (
-    <div className="demo">
-      {!state.contract ? <NoticeWrongNetwork /> : demo}
-    </div>
+    <div className="demo">{!state.sdk ? <NoticeWrongNetwork /> : demo}</div>
   );
 }
 

@@ -1,13 +1,15 @@
+// src/contexts/EthContext/state.js
+
 const actions = {
-  init: "INIT"
+  init: "INIT",
 };
 
 const initialState = {
-  artifact: null,
   web3: null,
   accounts: null,
   networkID: null,
-  contract: null
+
+  sdk: null,
 };
 
 const reducer = (state, action) => {

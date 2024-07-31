@@ -2,15 +2,12 @@
 
 import React, { useState } from "react";
 import useEth from "../../contexts/EthContext/useEth";
-import {
-  executeEthTransfers,
-  executeERC20Transfers,
-} from "../../sdk/distributionSDK";
+
 import "./ContractBtns.css";
 
 function ContractBtns() {
   const {
-    state: { contract, accounts, web3, artifact },
+    state: { sdk },
   } = useEth();
 
   const [transactionType, setTransactionType] = useState("eth");
@@ -44,16 +41,9 @@ function ContractBtns() {
 
     try {
       if (transactionType === "eth") {
-        await executeEthTransfers(web3, contract, recipients, amounts);
+        await sdk.executeEthTransfers(recipients, amounts);
       } else {
-        await executeERC20Transfers(
-          web3,
-          contract,
-          artifact,
-          tokenAddress,
-          recipients,
-          amounts
-        );
+        await sdk.executeERC20Transfers(tokenAddress, recipients, amounts);
       }
       alert("Distribution successful!");
     } catch (error) {
