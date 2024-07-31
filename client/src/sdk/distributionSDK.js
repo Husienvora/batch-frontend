@@ -1,6 +1,5 @@
 // src/sdk/DistributionSDK.js
 
-import Web3 from "web3";
 import ERC20ABI from "./ERC20Mock.json";
 import BatchDistributor from "./BatchDistributor.json";
 import ContractAddresses from "./ContractAddress.json";
@@ -11,7 +10,7 @@ import ContractAddresses from "./ContractAddress.json";
 class DistributionSDK {
   /**
    * Create a new DistributionSDK instance.
-   * @param {Web3} web3 - The Web3 instance to use.
+   * @param web3 - The Web3 instance to use.
    */
   constructor(web3) {
     this.web3 = web3;
@@ -114,7 +113,7 @@ class DistributionSDK {
       ERC20ABI.abi,
       tokenAddress
     );
-    const decimals = options.decimals || 18;
+    // const decimals = options.decimals || 18;
 
     const batch = {
       txns: recipients.map((recipient, index) => ({

@@ -4,7 +4,7 @@ import React, { useReducer, useCallback, useEffect } from "react";
 import Web3 from "web3";
 import EthContext from "./EthContext";
 import { reducer, actions, initialState } from "./state";
-import BatchDistributor from "../../../../truffle/public/contracts/BatchDistributor.json";
+
 import DistributionSDK from "../../sdk/distributionSDK";
 
 function EthProvider({ children }) {

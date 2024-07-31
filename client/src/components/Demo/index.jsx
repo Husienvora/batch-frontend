@@ -7,9 +7,6 @@ import NoticeWrongNetwork from "./NoticeWrongNetwork";
 function Demo() {
   const { state } = useEth();
 
-  const {
-    state: { contract, accounts },
-  } = useEth();
   const demo = (
     <>
       <div className="contract-container">
