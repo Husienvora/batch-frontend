@@ -41,7 +41,10 @@ git clone https://github.com/Husienvora/batch-frontend.git
 
 To run the demo application, follow these steps:
 
-1. Make sure you have [Ganache](https://trufflesuite.com/ganache/) installed and running on your local machine.
+1. Make sure you have
+
+- [Ganache](https://trufflesuite.com/ganache/) installed and running on your local machine.
+- [Metamask](https://chromewebstore.google.com/detail/nkbihfbeogaeaoehlefnkodbefgpgknn) browser extension installed since it is used as provider.
 
 2. Open a terminal and navigate to the `truffle` directory:
 
