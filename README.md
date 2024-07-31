@@ -20,6 +20,8 @@
 
 DistributionSDK is a powerful and flexible JavaScript library designed to simplify batch transactions of ETH and ERC20 tokens on Ethereum-compatible networks. It seamlessly integrates with open-source batching contracts, providing an easy-to-use interface for developers to execute multiple transactions in a single operation, saving gas costs and improving efficiency.
 
+GOTO the main [DistributionSDK.js](https://github.com/Husienvora/batch-frontend/blob/master/client/src/sdk/distributionSDK.js)
+
 ## Features
 
 - 🚀 Batch ETH and ERC20 token transfers
@@ -44,7 +46,7 @@ To run the demo application, follow these steps:
 1. Make sure you have
 
 - [Ganache](https://trufflesuite.com/ganache/) installed and running on your local machine.
-- [Metamask](https://chromewebstore.google.com/detail/nkbihfbeogaeaoehlefnkodbefgpgknn) browser extension installed since it is used as provider.
+- [Metamask](https://chromewebstore.google.com/detail/nkbihfbeogaeaoehlefnkodbefgpgknn) browser extension installed because it is used as provider.
 
 2. Open a terminal and navigate to the `truffle` directory:
 
